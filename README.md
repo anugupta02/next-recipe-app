@@ -1,25 +1,20 @@
-# Shopping-server
-An API server for shopping
+This is a [Next.js] project.
 
-## Technologies
-- Struts 2.5.16
-- Hibernate 5.0.7
-- Spring 5.1.7
+## Getting Started
 
-## IDE
-> IDEA 2017
+First, run the development server:
 
-## DB
-> Mysql
+```bash
+npm run dev
+# or
+yarn dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Maven
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-   # Maven SSH pom.xml
-  # Spring, Struts2, Hibernate  `hibernate.cfg.xml` 。
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-
-## Build
-
-    # Idea,Spring, Struts2, Tomcat ( Deployment ）
-
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+ 
